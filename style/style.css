@@ -1,0 +1,120 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+
+    --fonteh1: 'Protest Revolution', sans-serif;
+}
+@import url('https://fonts.googleapis.com/css2?family=Protest+Revolution&display=swap');
+
+nav{
+    background-color: black;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.432);
+}
+nav a{
+    color: white;
+    text-decoration: none;
+    padding: 20px;
+}
+nav p{
+    text-align: right;
+    padding-right: 30px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+a:hover{
+    background-color: rgba(31, 30, 30, 0.664);
+    font-style: italic;
+}
+main{
+    min-width: 300px;
+    max-width: 1000px;
+}
+h1{
+    font-family: var(--fonteh1);
+}
+#yusuke{
+    position: relative;
+    background-color: rgb(255, 255, 255);
+    font-size: 1.5m;
+}
+#fotodoyusuke{
+    display: inline-block;
+    position: absolute;
+    left: 60%;
+    top: 10%;
+    transform: translate(-2% -100%);
+    border: 2px;
+    background-color: rgba(0, 0, 0, 0.151);
+    border-radius: 30% ;
+}
+#yusuke > h1{
+    font-size: 3em;
+    padding: 20px;
+}
+#yusuke > h1:hover{
+    color: rgb(36, 150, 87);
+    font-style: italic;
+}
+#yusuke > p{
+    text-indent: 10px;
+    font-size: 1.5em;
+    padding-top: 100px; 
+    padding-bottom: 100px;
+    padding-left: 20px;
+    line-height: 30px;
+}
+#yusuke > p:hover{
+    color: rgb(9, 37, 22);
+    font-style: italic;
+}
+#kuwabara{
+    position: relative;
+    background-color: black;
+    color: white;
+}
+#fotodokuwabara{
+    position: absolute;
+    left: -17%;
+    top: 90%;
+    border: 2px;
+    background-color: rgba(255, 255, 255, 0.151);
+    border-radius: 50% ;
+}
+#kuwabara > h1{
+    font-size: 3em;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: right;
+    padding-right: 20px;
+}
+#kuwabara >h1:hover{
+    text-shadow: 1px 1px 1px  yellow;
+    color: yellow;
+    font-style: italic;
+}
+#kuwabara > p{
+    text-indent: 10px;
+    font-size: 1.5em;
+    padding-top: 100px; 
+    padding-bottom: 100px;
+    line-height: 30px;
+    padding-left: 300px;
+}
+#kuwabara > p:hover{
+    color: yellow;
+    font-style: italic;
+}
+footer{
+    background-color: black;
+    color: white;
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+}
+footer a{
+    text-decoration: none;
+    color: white;
+    font-style: bold;
+}
